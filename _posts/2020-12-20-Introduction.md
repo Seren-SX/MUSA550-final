@@ -1,5 +1,5 @@
 ---
-published: false
+published: true
 ---
 Policing is at a critical juncture.
 In the United States, police reform has become both politically charged and divisive following numerous publicized cases of police violence towards unarmed African Americans. At the same time, tight policing budgets are increasing demand for law-enforcement technologies. Police agencies hope to ‘do more with less’ by outsourcing their evaluations of crime data to analytics and technology companies that produce ‘predictive policing’ systems. These use algorithms to forecast where crimes are likely to occur and who might commit them, and to make recommendations for allocating police resources.
@@ -27,4 +27,3 @@ Check out the [Jekyll docs][jekyll-docs] for more info on how to get the most ou
 [jekyll-docs]: https://jekyllrb.com/docs/home
 [jekyll-gh]: https://github.com/jekyll/jekyll
 [jekyll-talk]: https://talk.jekyllrb.com/
-
