@@ -16,9 +16,9 @@ minimal_mistakes_skin: "default" # "air", "aqua", "contrast", "dark", "dirt", "n
 
 # Site Settings
 locale: "en-US"
-title: "MUSA 550: Geospatial Data Science in Python"
+title: "MUSA 550 Final Project: Predict Future Crime in Philadelphia"
 title_separator: "-"
-name: "Nick Hand"
+name: "Xuan Shi"
 description: "Displaying cool data visualizations"
 url: # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 baseurl: # the subpath of your site, e.g. "/blog"
@@ -105,15 +105,15 @@ analytics:
 
 # Site Author
 author:
-  name: "Nick Hand"
-  avatar: # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
-  bio: "Director of Finance, Data, and Policy, Philadelphia Controller"
+  name: "Xuan Shi"
+  avatar: "/assets/images/bio-photo.jpg"
+  bio: "Master of Urban Spatial Analytics, University of Pennsylvania"
   location: "Philadelphia"
-  email:
+  email:"xuanshi@upenn.edu"
   links:
     - label: "Email"
       icon: "fas fa-fw fa-envelope-square"
-      # url: mailto:your.name@email.com
+       url: xuanshi@upenn.edu
     - label: "Website"
       icon: "fas fa-fw fa-link"
       # url: "https://your-website.com"
@@ -125,7 +125,7 @@ author:
       # url: "https://facebook.com/"
     - label: "GitHub"
       icon: "fab fa-fw fa-github"
-      # url: "https://github.com/"
+       url: "https://github.com/Seren-SX"
     - label: "Instagram"
       icon: "fab fa-fw fa-instagram"
       # url: "https://instagram.com/"
