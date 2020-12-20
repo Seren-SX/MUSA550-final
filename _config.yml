@@ -109,7 +109,7 @@ author:
   avatar: "/assets/images/bio-photo.jpg"
   bio: "Master of Urban Spatial Analytics, University of Pennsylvania"
   location: "Philadelphia"
-  email:"xuanshi@upenn.edu"
+  email: "xuanshi@upenn.edu"
   links:
     - label: "Email"
       icon: "fas fa-fw fa-envelope-square"
