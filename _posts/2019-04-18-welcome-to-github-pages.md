@@ -1,12 +1,16 @@
 ---
-title: "Welcome to GitHub Pages!"
-date: 2019-04-18T15:34:30-04:00
+title: Welcome to GitHub Pages!
+date: {}
 categories:
   - blog
 tags:
   - Github Page
   - update
+published: true
 ---
+
+Policing is at a critical juncture.
+In the United States, police reform has become both politically charged and divisive following numerous publicized cases of police violence towards unarmed African Americans. At the same time, tight policing budgets are increasing demand for law-enforcement technologies. Police agencies hope to ‘do more with less’ by outsourcing their evaluations of crime data to analytics and technology companies that produce ‘predictive policing’ systems. These use algorithms to forecast where crimes are likely to occur and who might commit them, and to make recommendations for allocating police resources. 
 
 You'll find this post in your `_posts` directory. Go ahead and edit it and commit your changes to to the repository. GitHub will automatically rebuild your site. Wait a few minutes and then refresh the site link to see the new changes. There are three main ways to make changes to your site:
 
