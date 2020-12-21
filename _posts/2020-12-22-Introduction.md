@@ -10,7 +10,7 @@ toc: true
 toc_sticky: false
 read_time: true
 ---
-![Philly_crime_data.png]({{site.baseurl}}/_posts/Philly_crime_data.png)
+![Philly_crime_data.png]({{site.baseurl}}/assets/images/Philly_crime_data.png)
 
 With a crime rate of 40 per one thousand residents, Philadelphia has one of the highest crime rates in America compared to all communities of all sizes - from the smallest towns to the very largest cities. One's chance of becoming a victim of either violent or property crime here is one in 25. Within Pennsylvania, more than 98% of the communities have a lower crime rate than Philadelphia. In fact, after researching dangerous places to live, NeighborhoodScout found Philadelphia to be one of the top 100 most dangerous cities in the U.S.A.   
      
