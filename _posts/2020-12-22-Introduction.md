@@ -1,7 +1,7 @@
 ---
 published: true
 title: Introduction
-date: 2020-12-22T00:00:00.000Z
+date: {}
 tags:
   - dataviz
   - matplotlib
@@ -10,12 +10,24 @@ toc: true
 toc_sticky: true
 read_time: true
 ---
-With a crime rate of 40 per one thousand residents, Philadelphia has one of the highest crime rates in America compared to all communities of all sizes - from the smallest towns to the very largest cities. One's chance of becoming a victim of either violent or property crime here is one in 25. Within Pennsylvania, more than 98% of the communities have a lower crime rate than Philadelphia. In fact, after researching dangerous places to live, NeighborhoodScout found Philadelphia to be one of the top 100 most dangerous cities in the U.S.A.   
-  
-High crime rate and tight policing budgets are increasing demand for more efficient law-enforcement technologies, and here is where we turn to data science for help. Data science is an ideal planning tool to ensure that the supply of a limited resource (e.g. policing), matches the demand for those resources (e.g. crime).  
-  
-This project aims to build a “predictive policing” system in order to “do more with less.”, to use machine learning algorithms to predict crime distribution in Philadelphia, and provide recommendations for the allocation of police resources.
+![Philly_crime_data.png]({{site.baseurl}}/_posts/Philly_crime_data.png)
 
+With a crime rate of 40 per one thousand residents, Philadelphia has one of the highest crime rates in America compared to all communities of all sizes - from the smallest towns to the very largest cities. One's chance of becoming a victim of either violent or property crime here is one in 25. Within Pennsylvania, more than 98% of the communities have a lower crime rate than Philadelphia. In fact, after researching dangerous places to live, NeighborhoodScout found Philadelphia to be one of the top 100 most dangerous cities in the U.S.A.   
+     
+High crime rate and tight policing budgets are increasing demand for more efficient law-enforcement technologies, and here is where we turn to data science for help. Data science is an ideal planning tool to ensure that the supply of a limited resource (e.g. policing), matches the demand for those resources (e.g. crime).  
+     
+This project aims to build a “predictive policing” system in order to “do more with less.”, to use machine learning algorithms to predict crime distribution in Philadelphia, and provide recommendations for the allocation of police resources.
+   
+The data used in this project are mainly from [OpenDataPhilly](https://www.opendataphilly.org/), [WorldWeatherOnline](http://www.worldweatheronline.com/) and the[U.S. Census Bureau](https://data.census.gov/cedsci/).
+   
+Generally, this project would be divided into 5 parts:
+- Introduction
+- Data wrangling
+- Exploratory Analysis & Visualization
+- Prediction Models
+- Conclusion & More
+   
+For detailed codes about this project, please click [here](https://github.com/Seren-SX/MUSA550-final).
 
 
 You'll find this post in your `_posts` directory. Go ahead and edit it and commit your changes to to the repository. GitHub will automatically rebuild your site. Wait a few minutes and then refresh the site link to see the new changes. There are three main ways to make changes to your site:
