@@ -1,12 +1,12 @@
 ---
 published: true
 title: Introduction
-date: 2020-12-23T00:00:00.000Z
+date: 2020-12-22T00:00:00.000Z
 tags:
-  - dataviz
-  - matplotlib
-excerpt: This is an example blog post that embeds a matplotlib image.
-toc: true
+  - predictive policing
+  - Philadelphia
+excerpt: true
+toc: false
 toc_sticky: false
 read_time: true
 ---
