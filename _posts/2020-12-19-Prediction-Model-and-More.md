@@ -52,6 +52,9 @@ The random forest model result shows R2 as 0.99, indicating that this algorithm 
 ## More than This
 Policing is at a critical juncture in American after many publicly reported cases of police violence against unarmed African Americans, calls for more-equitable law enforcement are growing. 
 
-But is predictive policing just? Proponents argue that predictive policing can help predict crimes more accurately and effectively than traditional police methods. Today, with growing awareness that Black Lives Matter and that policing resources in America are allocated in part, by way of systematic racism, critics increasingly charge that Predictive Policing is harmful. They say that attempts to forecast crime with algorithmic techniques would reinforce existing racial biases in the criminal justice system.
+But is predictive policing just? Proponents argue that predictive policing can help predict crimes more accurately and effectively than traditional police methods. Today, with growing awareness that Black Lives Matter and that policing resources in America are allocated in part, by way of systematic racism, critics increasingly charge that Predictive Policing is harmful. They say that attempts to forecast crime with algorithmic techniques would reinforce existing racial biases in the criminal justice system.   
+   
+Although there are constant controversies about predicting policing, it is obvious that it will be helpful for residents to know more about the inner-workings of the predicting policing product, and use it more carefully to prevent increased bias and unwarranted surveillance.
+
 
 
