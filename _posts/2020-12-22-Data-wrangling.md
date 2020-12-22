@@ -84,40 +84,30 @@ philly_demo_final = philly_block_groups.merge(
     right_on=["state", "county", "tract", "block group"],)
 ```
 
-**We removed data that did not contain location information, and adjusted the projection of them. We spatially joined the crime incidents data with demographic data by census tracts’ location, and then joined weather data by date time.**
+**We removed data that did not contain location information, and adjusted the projection of them. We spatially joined the crime incidents data with demographic data by census tracts’ location, and then joined weather data by date time to get our final dataframe.**
 
-**## Feature engineering**
+## **Feature engineering**
 
+For our final datasets, the following 20 featured attributes are included:
 
+**DC_Dist**	: A two character field that names the District boundary.	
+**DC_Key**	: The unique identifier of the crime that consists of Year + District + Unique ID.
+**Dispatch_Date_Time**	: The date and time that the officer was dispatched to the scene.	
+**Hour**	: The generalized hour of the dispatched time.	
+**Location_Block**	: The location of crime generalized by street block.
+**Tract** : Census tract
+**PSA**	: A single character field that names the Police Service Area boundary.	
+**Text_General_Code**	: General Crime Category	The generalized text for the crime code.
+**Text_general**	: General Crime Category	The generalized text for the crime code.
+**Total population**  Total population
+**White residents population** : White residents population
+**Pct_White** : Pct_White = white residents population/total population
+**Median household income** : Median household income
+**Median contract rent** : Median contract rent
+**Geometry** : Geometry
+**tempC** : Day temperature
+**maxtempC** :Max temperature
+**mintempC**: : Min temperature
+**FeelsLikeC** : Feels like temperature
+**Diff_temp** : Diff_temp = maxtempC - mintempC
 
-## A New Post
-
-This post will show examples of embedding interactive charts produced using [Altair](https://altair-viz.github.io) and [Hvplot](https://hvplot.pyviz.org/).
-
-## Altair Example
-
-Below is a chart of the incidence of measles since 1928 for the 50 US states.
-
-<div id="altair-chart-1"></div>
-
-This was produced using Altair and embedded in this static web page. Note that you can also display Python code on this page:
-
-```python
-import altair as alt
-alt.renderers.enable('notebook')
-```
-
-## HvPlot Example
-
-Lastly, the measles incidence produced using the HvPlot package:
-
-<div id="hv-chart-1"></div>
-
-## Notes
-
-- See the [raw source code](https://raw.githubusercontent.com/MUSA-550-Fall-2020/github-pages-starter/master/_posts/2019-04-13-measles-charts.md) of this post for details on how these charts were embedded.
-- See the [lecture 13A slides](https://github.com/MUSA-550-Fall-2020/week-13/blob/master/lecture-13A.ipynb) for the code that produced these plots.
-
-**Important: When embedding charts, you will likely need to adjust the width/height of the charts before embedding them in the page so they fit nicely when embedded.**
-
-Enter text in [Markdown](http://daringfireball.net/projects/markdown/). Use the toolbar above, or click the **?** button for formatting help.
