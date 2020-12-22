@@ -5,7 +5,9 @@ date: 2020-12-22T00:00:00.000Z
 tags:
   - predictive policing
   - Philadelphia
-excerpt: true
+excerpt: >-
+  With a crime rate of 40 per one thousand residents, Philadelphia has one of
+  the highest crime rates in America compared to all communities of all sizes...
 toc: false
 toc_sticky: false
 read_time: true
