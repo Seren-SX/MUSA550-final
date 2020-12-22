@@ -1,6 +1,6 @@
 ---
 published: true
-date: 2020-12-21T00:00:00.000Z
+date: 2020-12-20T00:00:00.000Z
 tags:
   - Data wrangling
   - Feature engineering
@@ -90,7 +90,7 @@ philly_demo_final = philly_block_groups.merge(
 
 ## **Feature engineering**
 
-For our final datasets, the following 20 featured attributes are included:   
+For our final datasets, the following 25 featured attributes are included:   
 
 - **DC_Dist**	: A two character field that names the District boundary.	   
 - **DC_Key**	: The unique identifier of the crime that consists of Year + District + Unique ID.   
@@ -112,3 +112,11 @@ For our final datasets, the following 20 featured attributes are included:
 - **mintempC**: : Min temperature.   
 - **FeelsLikeC** : Feels like temperature.   
 - **Diff_temp** : Diff_temp = maxtempC - mintempC.
+- **SunHour**  : The sunshine duration
+- **Visibility** : Visibility
+- **WindspeedKmph** : Windspeed
+- **Humidity** : Humidity
+- **precipitation** : Precipitation
+
+
+
