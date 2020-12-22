@@ -1,7 +1,7 @@
 ---
 published: true
 title: Introduction
-date: {}
+date: 2020-12-21T00:00:00.000Z
 tags:
   - predictive policing
   - Philadelphia
