@@ -11,7 +11,7 @@ hv-loader:
   hv-chart-1:
     - charts/measlesHvplot.html
     - '500'
-toc: trueF
+toc: true
 toc_sticky: true
 read_time: true
 ---
