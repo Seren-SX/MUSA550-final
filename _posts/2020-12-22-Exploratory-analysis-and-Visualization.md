@@ -10,33 +10,39 @@ altair-loader:
 hv-loader:
   hv-chart-1:
     - charts/temp.html
-    - '600'
+    - '400'
   hv-chart-2:
     - charts/sunHour.html
-    - '600'
+    - '400'
   hv-chart-3:
     - charts/visibility.html
-    - '600'
+    - '400'
   hv-chart-4:
     - charts/windspeed.html
-    - '600'
+    - '400'
   hv-chart-5:
     - charts/precip.html
-    - '600'
+    - '400'
   hv-chart-6:
     - charts/humidity.html
-    - '600'
+    - '400'
   hv-chart-7:
     - charts/crime.html
-    - '600'
+    - '400'
 toc: true
 toc_sticky: true
 read_time: true
+folium-loader:
+  folium-chart-1:
+    - charts/distribution.html
+    - '400'
 ---
 ## **Weather**
 
-We produced some simple exploratory analysis of weather data using the HvPlot package:   
+We produced some simple exploratory analysis of weather data using the `HvPlot` package:     
    
+The following chart shows the changes in weather data during the six years (2015-2020), including temperature, body temperature, temperature difference, sunshine duration, visibility, wind speed, precipitation and humidity.  
+      
 <div id="hv-chart-1"></div>
 <div id="hv-chart-2"></div>
 <div id="hv-chart-3"></div>
@@ -44,10 +50,19 @@ We produced some simple exploratory analysis of weather data using the HvPlot pa
 <div id="hv-chart-5"></div>
 <div id="hv-chart-6"></div>
    
-
+It can be seen from the figure that part of the precipitation data is missing, so we excluded the precipitation data in the final modeling.   
+   
 ## **Crime**
 
-We also performed some simple exploratory analysis of our crime incidents data:  
+We then performed some simple exploratory analysis of our crime incidents data using the `HvPlot` package and `Folium` package:  
+
+### Spatial Distribution of Crime in Philadelphia (Folium)
+
+We visualized the spatial distribution for the crime incidents in Philadelphia. At first sight， most of the Airbnb are located in Manhattan and brooklyn.
+
+<div id="folium-chart-1"></div>   
+   
+### Crime in Philadelphia (Hvplot & Wordcloud)
    
 <div id="hv-chart-7"></div>   
    
@@ -58,23 +73,31 @@ A wordcloud with the top 40 keywords for crime types in Philadelphia has also be
 
 We have selected ten types of crimes that occur most frequently. They are:
 
-   text_general_code	      count
-- All Other Offenses	         170487
-- Other Assaults	            137504
-- Thefts	                 130602
-- Vandalism/Criminal Mischief	    87772
-- Theft from Vehicle	         76206
-- Fraud	                    64698
-- Narcotic / Drug Law Violations	 50660
-- Aggravated Assault No Firearm	    31576
-- Burglary Residential	         30486
-- Robbery No Firearm	         19530
+**Count by type of crime**
+- All Other Offenses	         (170487)
+- Other Assaults	            (137504)
+- Thefts	                 (130602)
+- Vandalism/Criminal Mischief	    (87772)
+- Theft from Vehicle	         (76206)
+- Fraud	                    (64698)
+- Narcotic / Drug Law Violations	 (50660)
+- Aggravated Assault No Firearm	    (31576)
+- Burglary Residential	         (30486)
+- Robbery No Firearm	         (19530)
 
 
 ## **Census**
 
-
-
+We also performed some simple exploratory analysis of our census data using the `HvPlot` package:  
+  
+Total population distribution:  
+<div id="hv-chart-8"></div>
+White population distribution:  
+<div id="hv-chart-9"></div>
+Median household income distribution:  
+<div id="hv-chart-10"></div>
+Median contract rent distribution:  
+<div id="hv-chart-11"></div>
 
 - See the [raw source code](https://raw.githubusercontent.com/MUSA-550-Fall-2020/github-pages-starter/master/_posts/2019-04-13-measles-charts.md) of this post for details on how these charts were embedded.
 - See the [lecture 13A slides](https://github.com/MUSA-550-Fall-2020/week-13/blob/master/lecture-13A.ipynb) for the code that produced these plots.
