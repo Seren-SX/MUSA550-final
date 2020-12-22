@@ -10,26 +10,18 @@ altair-loader:
 hv-loader:
   hv-chart-1:
     - charts/temp.html
-    - '300'
-    - '1500'
   hv-chart-2:
     - charts/sunHour.html
-    - '300,1500'
   hv-chart-3:
     - charts/visibility.html
-    - '1000'
   hv-chart-4:
     - charts/windspeed.html
-    - '30'
   hv-chart-5:
     - charts/precip.html
-    - '100'
   hv-chart-6:
     - charts/humidity.html
-    - '300'
   hv-chart-7:
     - charts/crime.html
-    - '500'
 toc: true
 toc_sticky: true
 read_time: true
@@ -39,16 +31,19 @@ read_time: true
 We produced some simple exploratory analysis of weather data using the HvPlot package:
 
 <div id="hv-chart-1"></div>
-
 <div id="hv-chart-2"></div>
 <div id="hv-chart-3"></div>
 <div id="hv-chart-4"></div>
 <div id="hv-chart-5"></div>
 <div id="hv-chart-6"></div>
-
 <div id="hv-chart-7"></div>
 
 ## Notes
+
+## **Weather**
+
+
+
 
 - See the [raw source code](https://raw.githubusercontent.com/MUSA-550-Fall-2020/github-pages-starter/master/_posts/2019-04-13-measles-charts.md) of this post for details on how these charts were embedded.
 - See the [lecture 13A slides](https://github.com/MUSA-550-Fall-2020/week-13/blob/master/lecture-13A.ipynb) for the code that produced these plots.
