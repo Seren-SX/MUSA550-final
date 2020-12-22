@@ -1,14 +1,58 @@
 ---
-title: _posts/2020-12-22-Exploratory-analysis-and-Visualization.md
-date: {}
+title: _posts/2020-12-22-Exploratory-analysis-and-Visualization1.md
+date: 2020-12-21T00:00:00.000Z
 published: true
 tags:
-  - dataviz
-  - matplotlib
-excerpt: This is an example blog post that embeds a matplotlib image.
+  - Dataviz
+  - Hvplot
+  - Folium
+  - Holoviews
+excerpt: >-
+  We produced some simple exploratory analysis of weather data, crime data, and
+  census data using `HvPlot` ,`Folium, and `Wordcloud` packages...
 toc: true
 toc_sticky: true
-read_time: false
+read_time: true
+altair-loader:
+  altair-chart-1: charts/measlesAltair.json
+hv-loader:
+  hv-chart-1:
+    - charts/temp.html
+    - '300'
+  hv-chart-2:
+    - charts/sunHour.html
+    - '300'
+  hv-chart-3:
+    - charts/visibility.html
+    - '300'
+  hv-chart-4:
+    - charts/windspeed.html
+    - '300'
+  hv-chart-5:
+    - charts/precip.html
+    - '300'
+  hv-chart-6:
+    - charts/humidity.html
+    - '300'
+  hv-chart-7:
+    - charts/crime.html
+    - '500'
+  hv-chart-8:
+    - charts/Total_population.html
+    - '400'
+  hv-chart-9:
+    - charts/White_population.html
+    - '400'
+  hv-chart-10:
+    - charts/Median_household_income.html
+    - '400'
+  hv-chart-11:
+    - charts/Median_contract_rent.html
+    - '400'
+folium-loader:
+  folium-chart-1:
+    - charts/distribution.html
+    - '700'
 ---
 ## **Weather**
 
