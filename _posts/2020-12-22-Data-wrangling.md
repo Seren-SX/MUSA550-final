@@ -2,9 +2,8 @@
 published: true
 date: 2020-12-21T00:00:00.000Z
 tags:
-  - dataviz
-  - hvplot
-  - holoviews
+  - Data wrangling
+  - Feature engineering
 excerpt: false
 altair-loader:
   altair-chart-1: charts/measlesAltair.json
@@ -12,7 +11,7 @@ hv-loader:
   hv-chart-1:
     - charts/measlesHvplot.html
     - '500'
-toc: true
+toc: trueF
 toc_sticky: true
 read_time: true
 ---
