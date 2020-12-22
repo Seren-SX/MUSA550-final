@@ -1,0 +1,91 @@
+
+
+
+
+<!DOCTYPE html>
+<html lang="en">
+  
+  <head>
+    
+      <meta charset="utf-8">
+      <title>crime</title>
+      
+      
+        
+          
+        <link rel="stylesheet" href="/static/extensions/panel/css/alerts.css" type="text/css" />
+        <link rel="stylesheet" href="/static/extensions/panel/css/card.css" type="text/css" />
+        <link rel="stylesheet" href="/static/extensions/panel/css/widgets.css" type="text/css" />
+        <link rel="stylesheet" href="/static/extensions/panel/css/markdown.css" type="text/css" />
+        <link rel="stylesheet" href="/static/extensions/panel/css/json.css" type="text/css" />
+        <link rel="stylesheet" href="/static/extensions/panel/css/dataframe.css" type="text/css" />
+        
+        
+          
+        <script type="text/javascript" src="https://cdn.bokeh.org/bokeh/release/bokeh-2.2.3.min.js" integrity="sha384-T2yuo9Oe71Cz/I4X9Ac5+gpEa5a8PpJCDlqKYO0CfAuEszu1JrXLl8YugMqYe3sM" crossorigin="anonymous"></script>
+        <script type="text/javascript">
+            Bokeh.set_log_level("info");
+        </script>
+        
+      
+      
+    
+  </head>
+  
+  
+  <body>
+    
+      
+        
+          
+          
+            
+              <div class="bk-root" id="1a8a56a8-6aff-4faa-ae43-29f19ce172b0" data-root-id="30394"></div>
+            
+          
+        
+      
+      
+        <script type="application/json" id="30543">
+          {"dfc744e9-cdab-4bf3-b826-fad7ed270388":{"roots":{"references":[{"attributes":{"margin":[5,5,5,5],"name":"HSpacer72525","sizing_mode":"stretch_width"},"id":"30457","type":"Spacer"},{"attributes":{"data_source":{"id":"30428"},"glyph":{"id":"30431"},"hover_glyph":null,"muted_glyph":{"id":"30433"},"nonselection_glyph":{"id":"30432"},"selection_glyph":null,"view":{"id":"30435"}},"id":"30434","type":"GlyphRenderer"},{"attributes":{"fill_alpha":{"value":0.2},"fill_color":{"value":"#1f77b3"},"line_alpha":{"value":0.2},"top":{"field":"count"},"width":{"value":0.8},"x":{"field":"text_gener"}},"id":"30433","type":"VBar"},{"attributes":{"source":{"id":"30428"}},"id":"30435","type":"CDSView"},{"attributes":{"margin":[5,5,5,5],"name":"HSpacer72524","sizing_mode":"stretch_width"},"id":"30395","type":"Spacer"},{"attributes":{"fill_alpha":{"value":0.1},"fill_color":{"value":"#1f77b3"},"line_alpha":{"value":0.1},"top":{"field":"count"},"width":{"value":0.8},"x":{"field":"text_gener"}},"id":"30432","type":"VBar"},{"attributes":{"callback":null,"renderers":[{"id":"30434"}],"tags":["hv_created"],"tooltips":[["text_gener","@{text_gener}"],["count","@{count}"]]},"id":"30398","type":"HoverTool"},{"attributes":{"fill_color":{"value":"#1f77b3"},"top":{"field":"count"},"width":{"value":0.8},"x":{"field":"text_gener"}},"id":"30431","type":"VBar"},{"attributes":{},"id":"30429","type":"Selection"},{"attributes":{"factors":["All Other Offenses","Other Assaults","Thefts","Vandalism/Criminal Mischief","Theft from Vehicle","Fraud","Narcotic / Drug Law Violations","Aggravated Assault No Firearm","Burglary Residential","Robbery No Firearm","DRIVING UNDER THE INFLUENCE","Aggravated Assault Firearm","Robbery Firearm","Weapon Violations","Motor Vehicle Theft","Burglary Non-Residential","Disorderly Conduct","Rape","Other Sex Offenses (Not Commercialized)","Prostitution and Commercialized Vice","Arson","Homicide - Criminal","Embezzlement","Offenses Against Family and Children","Public Drunkenness","Forgery and Counterfeiting","Vagrancy/Loitering","Recovered Stolen Motor Vehicle","Liquor Law Violations","Gambling Violations","Receiving Stolen Property","Homicide - Justifiable","Homicide - Gross Negligence"],"tags":[[["text_gener","text_gener",null]]]},"id":"30396","type":"FactorRange"},{"attributes":{},"id":"30448","type":"UnionRenderers"},{"attributes":{"children":[{"id":"30395"},{"id":"30399"},{"id":"30457"}],"margin":[0,0,0,0],"name":"Row72520","tags":["embedded"]},"id":"30394","type":"Row"},{"attributes":{"axis_label":"count","bounds":"auto","formatter":{"id":"30436"},"major_label_orientation":"horizontal","ticker":{"id":"30412"}},"id":"30411","type":"LinearAxis"},{"attributes":{},"id":"30409","type":"CategoricalTicker"},{"attributes":{},"id":"30437","type":"CategoricalTickFormatter"},{"attributes":{"axis_label":"text_gener","bounds":"auto","formatter":{"id":"30437"},"major_label_orientation":1.5707963267948966,"ticker":{"id":"30409"}},"id":"30408","type":"CategoricalAxis"},{"attributes":{},"id":"30416","type":"PanTool"},{"attributes":{"axis":{"id":"30408"},"grid_line_color":null,"ticker":null},"id":"30410","type":"Grid"},{"attributes":{"data":{"count":[170487,137504,130602,87772,76206,64698,50660,31576,30486,19530,17372,14975,13641,13125,12682,9741,7362,6411,5440,4526,2495,1916,1910,1506,1323,1150,1107,1106,748,243,179,7,1],"text_gener":["All Other Offenses","Other Assaults","Thefts","Vandalism/Criminal Mischief","Theft from Vehicle","Fraud","Narcotic / Drug Law Violations","Aggravated Assault No Firearm","Burglary Residential","Robbery No Firearm","DRIVING UNDER THE INFLUENCE","Aggravated Assault Firearm","Robbery Firearm","Weapon Violations","Motor Vehicle Theft","Burglary Non-Residential","Disorderly Conduct","Rape","Other Sex Offenses (Not Commercialized)","Prostitution and Commercialized Vice","Arson","Homicide - Criminal","Embezzlement","Offenses Against Family and Children","Public Drunkenness","Forgery and Counterfeiting","Vagrancy/Loitering","Recovered Stolen Motor Vehicle","Liquor Law Violations","Gambling Violations","Receiving Stolen Property","Homicide - Justifiable","Homicide - Gross Negligence"]},"selected":{"id":"30429"},"selection_policy":{"id":"30448"}},"id":"30428","type":"ColumnDataSource"},{"attributes":{"axis":{"id":"30411"},"dimension":1,"grid_line_color":null,"ticker":null},"id":"30414","type":"Grid"},{"attributes":{},"id":"30404","type":"CategoricalScale"},{"attributes":{},"id":"30412","type":"BasicTicker"},{"attributes":{},"id":"30417","type":"WheelZoomTool"},{"attributes":{"below":[{"id":"30408"}],"center":[{"id":"30410"},{"id":"30414"}],"frame_height":400,"frame_width":800,"left":[{"id":"30411"}],"margin":[5,5,5,5],"min_border_bottom":10,"min_border_left":10,"min_border_right":10,"min_border_top":10,"plot_height":null,"plot_width":null,"renderers":[{"id":"30434"}],"sizing_mode":"fixed","title":{"id":"30400"},"toolbar":{"id":"30421"},"x_range":{"id":"30396"},"x_scale":{"id":"30404"},"y_range":{"id":"30397"},"y_scale":{"id":"30406"}},"id":"30399","subtype":"Figure","type":"Plot"},{"attributes":{"format":"%d"},"id":"30436","type":"PrintfTickFormatter"},{"attributes":{},"id":"30415","type":"SaveTool"},{"attributes":{},"id":"30406","type":"LinearScale"},{"attributes":{"overlay":{"id":"30420"}},"id":"30418","type":"BoxZoomTool"},{"attributes":{},"id":"30419","type":"ResetTool"},{"attributes":{"active_drag":"auto","active_inspect":"auto","active_multi":null,"active_scroll":"auto","active_tap":"auto","tools":[{"id":"30398"},{"id":"30415"},{"id":"30416"},{"id":"30417"},{"id":"30418"},{"id":"30419"}]},"id":"30421","type":"Toolbar"},{"attributes":{"text":"","text_color":{"value":"black"},"text_font_size":{"value":"12pt"}},"id":"30400","type":"Title"},{"attributes":{"end":187535.6,"reset_end":187535.6,"reset_start":0.0,"tags":[[["count","count",null]]]},"id":"30397","type":"Range1d"},{"attributes":{"bottom_units":"screen","fill_alpha":0.5,"fill_color":"lightgrey","left_units":"screen","level":"overlay","line_alpha":1.0,"line_color":"black","line_dash":[4,4],"line_width":2,"right_units":"screen","top_units":"screen"},"id":"30420","type":"BoxAnnotation"}],"root_ids":["30394"]},"title":"Bokeh Application","version":"2.2.3"}}
+        </script>
+        <script type="text/javascript">
+          (function() {
+            var fn = function() {
+              Bokeh.safely(function() {
+                (function(root) {
+                  function embed_document(root) {
+                    
+                  var docs_json = document.getElementById('30543').textContent;
+                  var render_items = [{"docid":"dfc744e9-cdab-4bf3-b826-fad7ed270388","root_ids":["30394"],"roots":{"30394":"1a8a56a8-6aff-4faa-ae43-29f19ce172b0"}}];
+                  root.Bokeh.embed.embed_items(docs_json, render_items);
+                
+                  }
+                  if (root.Bokeh !== undefined) {
+                    embed_document(root);
+                  } else {
+                    var attempts = 0;
+                    var timer = setInterval(function(root) {
+                      if (root.Bokeh !== undefined) {
+                        clearInterval(timer);
+                        embed_document(root);
+                      } else {
+                        attempts++;
+                        if (attempts > 100) {
+                          clearInterval(timer);
+                          console.log("Bokeh: ERROR: Unable to run BokehJS code because BokehJS library is missing");
+                        }
+                      }
+                    }, 10, root)
+                  }
+                })(window);
+              });
+            };
+            if (document.readyState != "loading") fn();
+            else document.addEventListener("DOMContentLoaded", fn);
+          })();
+        </script>
+    
+  </body>
+  
+</html>
