@@ -1,6 +1,6 @@
 ---
 published: true
-date: 2020-12-22T00:00:00.000Z
+date: {}
 tags:
   - dataviz
   - hvplot
@@ -28,19 +28,43 @@ read_time: true
 ---
 ## **Weather**
 
-We produced some simple exploratory analysis of weather data using the HvPlot package:
-
+We produced some simple exploratory analysis of weather data using the HvPlot package:   
+   
 <div id="hv-chart-1"></div>
 <div id="hv-chart-2"></div>
 <div id="hv-chart-3"></div>
 <div id="hv-chart-4"></div>
 <div id="hv-chart-5"></div>
 <div id="hv-chart-6"></div>
-<div id="hv-chart-7"></div>
+   
 
-## Notes
+## **Crime**
 
-## **Weather**
+We also performed some simple exploratory analysis of our crime incidents data:  
+   
+<div id="hv-chart-7"></div>   
+   
+A wordcloud with the top 40 keywords for crime types in Philadelphia has also been created. As can be seen from the following picture, violent crime and property crimes are the major contributors to the general rate of crime in Philadelphia, which is consistent with the information we got from NeighborhoodScout's analysis: the violent crime rate is one of the highest in the nation, across communities of all sizes (both large and small). Violent offenses tracked included rape, murder and non-negligent manslaughter, armed robbery, and aggravated assault, including assault with a deadly weapon.    
+   
+![wordcloud.png]({{site.baseurl}}/assets/image/wordcloud.png)
+
+
+We have selected ten types of crimes that occur most frequently. They are:
+
+   text_general_code	      count
+- All Other Offenses	         170487
+- Other Assaults	            137504
+- Thefts	                 130602
+- Vandalism/Criminal Mischief	    87772
+- Theft from Vehicle	         76206
+- Fraud	                    64698
+- Narcotic / Drug Law Violations	 50660
+- Aggravated Assault No Firearm	    31576
+- Burglary Residential	         30486
+- Robbery No Firearm	         19530
+
+
+## **Census**
 
 
 
