@@ -32,23 +32,26 @@ hv-loader:
     - '500'
   hv-chart-8:
     - charts/Total_population.html
-    - '500'
+    - '400'
   hv-chart-9:
     - charts/White_population.html
-    - '500'
+    - '400'
   hv-chart-10:
     - charts/Median_household_income.html
-    - '500'
+    - '400'
   hv-chart-11:
     - charts/Median_contract_rent.html
-    - '500'
+    - '400'
 toc: true
 toc_sticky: true
 read_time: true
 folium-loader:
   folium-chart-1:
     - charts/distribution.html
-    - '400'
+    - '700'
+excerpt: >-
+  We produced some simple exploratory analysis of weather data, crime data, and
+  census data using `HvPlot` ,`Folium, and `Wordcloud` packages...
 ---
 ## **Weather**
 
@@ -117,5 +120,4 @@ Median household income distribution:
    
 Median contract rent distribution:     
    
-<div id="hv-chart-11"></div>   
-
+<div id="hv-chart-11"></div>
