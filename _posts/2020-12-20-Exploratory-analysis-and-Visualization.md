@@ -82,7 +82,7 @@ We visualized the spatial distribution for the crime incidents in Philadelphia. 
    
 <div id="hv-chart-7"></div>   
    
-A wordcloud with the top 40 keywords for crime types in Philadelphia has also been created. As can be seen from the following picture, violent crime and property crimes are the major contributors to the general rate of crime in Philadelphia, which is consistent with the information we got from NeighborhoodScout's analysis: the violent crime rate is one of the highest in the nation, across communities of all sizes (both large and small). Violent offenses tracked included rape, murder and non-negligent manslaughter, armed robbery, and aggravated assault, including assault with a deadly weapon.    
+A wordcloud with the top 40 keywords for crime types in Philadelphia has also been created. As can be seen from the following picture, violent crime and property crimes are the major contributors to the general rate of crime in Philadelphia, which is consistent with the information we got from NeighborhoodScout's analysis: the violent crime rate is one of the highest in the nation, across communities of all sizes (both large and small). 
    
 ![wordcloud.png]({{site.baseurl}}/assets/image/wordcloud.png)
 
