@@ -1,5 +1,19 @@
 ---
-published: false
+published: true
+date: 2020-12-22T00:00:00.000Z
+tags:
+  - dataviz
+  - hvplot
+  - holoviews
+altair-loader:
+  altair-chart-1: charts/measlesAltair.json
+hv-loader:
+  hv-chart-1:
+    - charts/measlesHvplot.html
+    - '500'
+toc: true
+toc_sticky: true
+read_time: true
 ---
 
 
