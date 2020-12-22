@@ -9,8 +9,26 @@ altair-loader:
   altair-chart-1: charts/measlesAltair.json
 hv-loader:
   hv-chart-1:
-    - charts/measlesHvplot.html
-    - '500'
+    - charts/temp.html
+    - '1000'
+  hv-chart-2:
+    - charts/sunHour.html
+    - '1000'
+  hv-chart-3:
+    - charts/visibility.html
+    - '1000'
+  hv-chart-4:
+    - charts/windspeed.html
+    - '1000'
+  hv-chart-5:
+    - charts/precip.html
+    - '1000'
+  hv-chart-6:
+    - charts/humidity.html
+    - '1000'
+  hv-chart-7:
+    - charts/crime.html
+    - '1000'
 toc: true
 toc_sticky: true
 read_time: true
@@ -39,6 +57,14 @@ alt.renderers.enable('notebook')
 Lastly, the measles incidence produced using the HvPlot package:
 
 <div id="hv-chart-1"></div>
+
+<div id="hv-chart-2"></div>
+<div id="hv-chart-3"></div>
+<div id="hv-chart-4"></div>
+<div id="hv-chart-5"></div>
+<div id="hv-chart-6"></div>
+
+<div id="hv-chart-7"></div>
 
 ## Notes
 
