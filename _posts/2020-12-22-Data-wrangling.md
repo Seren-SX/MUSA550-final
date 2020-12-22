@@ -90,23 +90,24 @@ philly_demo_final = philly_block_groups.merge(
 
 For our final datasets, the following 20 featured attributes are included:   
 
-<br/>**DC_Dist**	: A two character field that names the District boundary.	   
-<br/>**DC_Key**	: The unique identifier of the crime that consists of Year + District + Unique ID.   
-<br/>**Dispatch_Date_Time**	: The date and time that the officer was dispatched to the scene.   	
-<br/>**Hour**	: The generalized hour of the dispatched time.	   
-<br/>**Location_Block**	: The location of crime generalized by street block.   
-<br/>**Tract** : Census tracts.   
-<br/>**PSA**	: A single character field that names the Police Service Area boundary.	   
-<br/>**Text_General_Code**	: General Crime Category	The generalized text for the crime code.   
-<br/>**Text_general**	: General Crime Category	The generalized text for the crime code.   
-<br/>**Total population**  Total population.   
-<br/>**White residents population** : White residents population.   
-<br/>**Pct_White** : Pct_White = white residents population/total population.   
-<br/>**Median household income** : Median household income.   
-<br/>**Median contract rent** : Median contract rent.   
-<br/>**Geometry** : Geometry.   
-<br/>**tempC** : Day temperature.   
-<br/>**maxtempC** :Max temperature.   
-<br/>**mintempC**: : Min temperature.   
-<br/>**FeelsLikeC** : Feels like temperature.   
-<br/>**Diff_temp** : Diff_temp = maxtempC - mintempC.   
+- **DC_Dist**	: A two character field that names the District boundary.	   
+- **DC_Key**	: The unique identifier of the crime that consists of Year + District + Unique ID.   
+- **Dispatch_Date_Time**	: The date and time that the officer was dispatched to the scene.   	
+- **Hour**	: The generalized hour of the dispatched time.	   
+- **Location_Block**	: The location of crime generalized by street block.   
+- **Tract** : Census tracts.   
+- **PSA**	: A single character field that names the Police Service Area boundary.	   
+- **Text_General_Code**	: General Crime Category	The generalized text for the crime code.   
+- **Text_general**	: General Crime Category	The generalized text for the crime code.   
+- **Total population**  Total population.   
+- **White residents population** : White residents population.   
+- **Pct_White** : Pct_White = white residents population/total population.   
+- **Median household income** : Median household income.   
+- **Median contract rent** : Median contract rent.   
+- **Geometry** : Geometry.   
+- **tempC** : Day temperature.   
+- **maxtempC** :Max temperature.   
+- **mintempC**: : Min temperature.   
+- **FeelsLikeC** : Feels like temperature.   
+- **Diff_temp** : Diff_temp = maxtempC - mintempC.
+ 
