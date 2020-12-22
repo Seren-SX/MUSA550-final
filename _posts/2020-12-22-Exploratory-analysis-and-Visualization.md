@@ -17,13 +17,13 @@ hv-loader:
     - '300,1500'
   hv-chart-3:
     - charts/visibility.html
-    - '300'
+    - '1000'
   hv-chart-4:
     - charts/windspeed.html
-    - '300'
+    - '30'
   hv-chart-5:
     - charts/precip.html
-    - '300'
+    - '100'
   hv-chart-6:
     - charts/humidity.html
     - '300'
