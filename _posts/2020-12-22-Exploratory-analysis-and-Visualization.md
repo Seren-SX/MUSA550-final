@@ -1,6 +1,6 @@
 ---
 published: true
-date: {}
+date: 2020-12-21T00:00:00.000Z
 tags:
   - dataviz
   - hvplot
@@ -10,18 +10,25 @@ altair-loader:
 hv-loader:
   hv-chart-1:
     - charts/temp.html
+    - '600'
   hv-chart-2:
     - charts/sunHour.html
+    - '600'
   hv-chart-3:
     - charts/visibility.html
+    - '600'
   hv-chart-4:
     - charts/windspeed.html
+    - '600'
   hv-chart-5:
     - charts/precip.html
+    - '600'
   hv-chart-6:
     - charts/humidity.html
+    - '600'
   hv-chart-7:
     - charts/crime.html
+    - '600'
 toc: true
 toc_sticky: true
 read_time: true
