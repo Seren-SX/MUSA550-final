@@ -10,25 +10,25 @@ altair-loader:
 hv-loader:
   hv-chart-1:
     - charts/temp.html
-    - '1000'
+    - '300'
   hv-chart-2:
     - charts/sunHour.html
-    - '1000'
+    - '300'
   hv-chart-3:
     - charts/visibility.html
-    - '1000'
+    - '300'
   hv-chart-4:
     - charts/windspeed.html
-    - '1000'
+    - '300'
   hv-chart-5:
     - charts/precip.html
-    - '1000'
+    - '300'
   hv-chart-6:
     - charts/humidity.html
-    - '1000'
+    - '300'
   hv-chart-7:
     - charts/crime.html
-    - '1000'
+    - '500'
 toc: true
 toc_sticky: true
 read_time: true
