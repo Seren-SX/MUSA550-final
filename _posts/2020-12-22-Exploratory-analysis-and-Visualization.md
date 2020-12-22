@@ -11,6 +11,7 @@ hv-loader:
   hv-chart-1:
     - charts/temp.html
     - '300'
+    - '1500'
   hv-chart-2:
     - charts/sunHour.html
     - '300'
