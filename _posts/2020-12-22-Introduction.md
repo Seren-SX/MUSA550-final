@@ -1,7 +1,7 @@
 ---
 published: true
 title: Introduction
-date: 2020-12-22T00:00:00.000Z
+date: {}
 tags:
   - predictive policing
   - Philadelphia
@@ -22,12 +22,11 @@ This project aims to build a “predictive policing” system in order to “do 
    
 The data used in this project are mainly from [OpenDataPhilly](https://www.opendataphilly.org/), [WorldWeatherOnline](http://www.worldweatheronline.com/) and the[U.S. Census Bureau](https://data.census.gov/cedsci/).
    
-Generally, this project would be divided into 5 parts:
+Generally, this project would be divided into 4 parts:
 - Introduction
 - Data wrangling
 - Exploratory Analysis & Visualization
-- Prediction Models
-- Conclusion & More
+- Prediction & More
    
 For detailed codes about this project, please click [here](https://github.com/Seren-SX/MUSA550-final).
 
