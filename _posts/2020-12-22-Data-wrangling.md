@@ -14,14 +14,15 @@ hv-loader:
     - '500'
 toc: true
 toc_sticky: true
+read_time: true
 ---
 ## **Datasets Used in This Project**
 
-- Philadelphia Crime Data (by OpenDataPhilly)
-- Weather data (by WorldWeatherOnline)
-- Census tracts data (by the U.S. Census Bureau)
+- **Philadelphia Crime Data (by OpenDataPhilly)**
+- **Weather data (by WorldWeatherOnline)**
+- **Census tracts data (by the U.S. Census Bureau)**
 
-We accessed the API documentation from OpenDataPhilly to load the Crime Incidents data and then we removed data that do not contain location information.    
+We accessed the API documentation from **OpenDataPhilly** to load the **Crime Incidents data** and then we removed data that do not contain location information.    
    
 ```python
 API_endpoint = "https://phl.carto.com/api/v2/sql"
@@ -34,7 +35,7 @@ features = r.json()
 crime = gpd.GeoDataFrame.from_features(features)
 ```
 
-Also, we loaded Weather data (from 2015 to present) by using the [wwo-hist package](https://github.com/ekapope/WorldWeatherOnline), a WorldWeatherOnline historical weather data API wrapper. We added a new field Diff_temp (Diff_temp= maxtempC-mintempC) into our weather dataset.    
+Also, we loaded **Weather data** (from 2015 to present) by using the [wwo-hist package](https://github.com/ekapope/WorldWeatherOnline), a WorldWeatherOnline historical weather data API wrapper. We added a new field Diff_temp (Diff_temp= maxtempC-mintempC) into our weather dataset.    
 ```python
 from wwo_hist import retrieve_hist_data
 import os
@@ -54,7 +55,7 @@ hist_weather_data = retrieve_hist_data(api_key,
                           store_df = True)
 ```
 
-We also query census data from the U.S. Census Bureau for demographic data, we got total population, white residents population, median household income and median contract rent data. We then added a new field Pct_White (Pct_White=white residents population/total population) into our demographic dataset. 
+We also query **Census data** from **the U.S. Census Bureau** for demographic data, we got total population, white residents population, median household income and median contract rent data. We then added a new field Pct_White (Pct_White=white residents population/total population) into our demographic dataset. 
 
 ```python
 acs = cenpy.remote.APIConnection("ACSDT5Y2018")
@@ -63,15 +64,15 @@ variables = [
     "B02001_001E", # Total population
     "B02001_002E", #White residents population
     "B19001_001E", #Median household income
-    "B25058_001E", #Median contract rent    
-]
+    "B25058_001E", #Median contract rent ]
+    
 philly_demo_data = acs.query(
     cols=variables,
     geo_unit="block group:*",
     geo_filter={"state": "42", 
                 "county": "101", 
-                "tract": "*"},
-)
+                "tract": "*"},)
+                
 # Use SQL to return geometries only for Philadelphia County in PA
 where_clause = f"STATE = {42} AND COUNTY = {101}"
 
@@ -80,11 +81,10 @@ philly_block_groups = acs.mapservice.layers[10].query(where=where_clause)
 philly_demo_final = philly_block_groups.merge(
     philly_demo_data,
     left_on=["STATE", "COUNTY", "TRACT", "BLKGRP"],
-    right_on=["state", "county", "tract", "block group"],
-)
+    right_on=["state", "county", "tract", "block group"],)
 ```
 
-We removed data that did not contain location information, and adjusted the projection of them. We spatially joined the crime incidents data with demographic data by census tracts’ location, and then joined weather data by date time.
+**We removed data that did not contain location information, and adjusted the projection of them. We spatially joined the crime incidents data with demographic data by census tracts’ location, and then joined weather data by date time.**
 
 **## Feature engineering**
 
