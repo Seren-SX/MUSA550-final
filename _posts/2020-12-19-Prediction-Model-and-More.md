@@ -54,7 +54,4 @@ Policing is at a critical juncture in American after many publicly reported case
 
 But is predictive policing just? Proponents argue that predictive policing can help predict crimes more accurately and effectively than traditional police methods. Today, with growing awareness that Black Lives Matter and that policing resources in America are allocated in part, by way of systematic racism, critics increasingly charge that Predictive Policing is harmful. They say that attempts to forecast crime with algorithmic techniques would reinforce existing racial biases in the criminal justice system.   
    
-Although there are constant controversies about predicting policing, it is obvious that it will be helpful for residents to know more about the inner-workings of the predicting policing product, and use it more carefully to prevent increased bias and unwarranted surveillance.
-
-
-
+Although there are constant controversies about predicting policing, it is obvious that knowing more about the inner-workings of the predicting policing product can be helpful for stakeholders to use it more carefully to prevent increased bias and unwarranted surveillance.
