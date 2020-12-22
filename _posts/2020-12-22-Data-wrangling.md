@@ -4,7 +4,10 @@ date: 2020-12-21T00:00:00.000Z
 tags:
   - Data wrangling
   - Feature engineering
-excerpt: false
+excerpt: >-
+  We accessed the API documentation from OpenDataPhilly to load the Crime
+  Incidents data and then we removed data that do not contain location
+  information...
 altair-loader:
   altair-chart-1: charts/measlesAltair.json
 hv-loader:
@@ -109,4 +112,3 @@ For our final datasets, the following 20 featured attributes are included:
 - **mintempC**: : Min temperature.   
 - **FeelsLikeC** : Feels like temperature.   
 - **Diff_temp** : Diff_temp = maxtempC - mintempC.
- 
