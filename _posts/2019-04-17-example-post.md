@@ -1,6 +1,6 @@
 ---
-title: _posts/2020-12-22-Exploratory-analysis-and-Visualization1.md
-date: 2020-12-21T00:00:00.000Z
+title: _posts/2020-12-21-Exploratory-analysis-and-Visualization1.md
+date: {}
 published: true
 tags:
   - Dataviz
