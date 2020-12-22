@@ -1,6 +1,6 @@
 ---
 published: true
-date: {}
+date: 2020-12-21T00:00:00.000Z
 tags:
   - Predictive policing
   - Philadelphia
