@@ -117,6 +117,3 @@ For our final datasets, the following 25 featured attributes are included:
 - **WindspeedKmph** : Windspeed
 - **Humidity** : Humidity
 - **precipitation** : Precipitation
-
-
-
