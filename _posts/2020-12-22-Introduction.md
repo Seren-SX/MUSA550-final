@@ -1,6 +1,6 @@
 ---
 published: true
-title: 2020-12-22-Introduction
+title: Introduction
 date: 2020-12-22T00:00:00.000Z
 tags:
   - predictive policing
