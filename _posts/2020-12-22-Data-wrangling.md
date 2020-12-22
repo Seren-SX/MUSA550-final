@@ -23,7 +23,7 @@ toc_sticky: true
 
 We accessed the API documentation from OpenDataPhilly to load the Crime Incidents data and then we removed data that do not contain location information.    
    
-```Python
+```python
 API_endpoint = "https://phl.carto.com/api/v2/sql"
 # the query
 query = "SELECT * FROM incidents_part1_part2 WHERE dispatch_date_time >= '2015-01-01' AND dispatch_date_time < '2020-12-01'" 
@@ -35,7 +35,7 @@ crime = gpd.GeoDataFrame.from_features(features)
 ```
 
 Also, we loaded Weather data (from 2015 to present) by using the [wwo-hist package](https://github.com/ekapope/WorldWeatherOnline), a WorldWeatherOnline historical weather data API wrapper. We added a new field Diff_temp (Diff_temp= maxtempC-mintempC) into our weather dataset.    
-```Python
+```python
 from wwo_hist import retrieve_hist_data
 import os
 os.chdir("your own path")
@@ -56,7 +56,7 @@ hist_weather_data = retrieve_hist_data(api_key,
 
 We also query census data from the U.S. Census Bureau for demographic data, we got total population, white residents population, median household income and median contract rent data. We then added a new field Pct_White (Pct_White=white residents population/total population) into our demographic dataset. 
 
-```Python
+```python
 acs = cenpy.remote.APIConnection("ACSDT5Y2018")
 variables = [
     "NAME",
@@ -86,6 +86,7 @@ philly_demo_final = philly_block_groups.merge(
 
 We removed data that did not contain location information, and adjusted the projection of them. We spatially joined the crime incidents data with demographic data by census tracts’ location, and then joined weather data by date time.
 
+**## Feature engineering**
 
 
 
