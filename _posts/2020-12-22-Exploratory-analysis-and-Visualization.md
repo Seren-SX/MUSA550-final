@@ -2,33 +2,46 @@
 published: true
 date: 2020-12-21T00:00:00.000Z
 tags:
-  - dataviz
-  - hvplot
-  - holoviews
+  - Dataviz
+  - Hvplot
+  - Folium
+  - Holoviews
 altair-loader:
   altair-chart-1: charts/measlesAltair.json
 hv-loader:
   hv-chart-1:
     - charts/temp.html
-    - '400'
+    - '300'
   hv-chart-2:
     - charts/sunHour.html
-    - '400'
+    - '300'
   hv-chart-3:
     - charts/visibility.html
-    - '400'
+    - '300'
   hv-chart-4:
     - charts/windspeed.html
-    - '400'
+    - '300'
   hv-chart-5:
     - charts/precip.html
-    - '400'
+    - '300'
   hv-chart-6:
     - charts/humidity.html
-    - '400'
+    - '300'
   hv-chart-7:
     - charts/crime.html
-    - '400'
+    - '500'
+  hv-chart-8:
+    - charts/Total_population.html
+    - '500'
+  hv-chart-9:
+    - charts/White_population.html
+    - '500'
+  hv-chart-10:
+    - charts/Median_household_income.html
+    - '500'
+  hv-chart-11:
+    - charts/Median_contract_rent.html
+    - '500'
 toc: true
 toc_sticky: true
 read_time: true
@@ -58,7 +71,7 @@ We then performed some simple exploratory analysis of our crime incidents data u
 
 ### Spatial Distribution of Crime in Philadelphia (Folium)
 
-We visualized the spatial distribution for the crime incidents in Philadelphia. At first sight， most of the Airbnb are located in Manhattan and brooklyn.
+We visualized the spatial distribution for the crime incidents in Philadelphia. Most cases occurred in West Philadelphia, Southwest Philadelphia, Central Philadelphia and East Philadelphia.
 
 <div id="folium-chart-1"></div>   
    
@@ -88,39 +101,21 @@ We have selected ten types of crimes that occur most frequently. They are:
 
 ## **Census**
 
-We also performed some simple exploratory analysis of our census data using the `HvPlot` package:  
+We also performed some simple exploratory analysis of our census data using the `HvPlot` package:     
   
-Total population distribution:  
-<div id="hv-chart-8"></div>
-White population distribution:  
-<div id="hv-chart-9"></div>
-Median household income distribution:  
-<div id="hv-chart-10"></div>
-Median contract rent distribution:  
-<div id="hv-chart-11"></div>
+Total population distribution:    
+   
+<div id="hv-chart-8"></div>   
+   
+White population distribution:    
+   
+<div id="hv-chart-9"></div>   
+   
+Median household income distribution:    
+   
+<div id="hv-chart-10"></div>   
+   
+Median contract rent distribution:     
+   
+<div id="hv-chart-11"></div>   
 
-- See the [raw source code](https://raw.githubusercontent.com/MUSA-550-Fall-2020/github-pages-starter/master/_posts/2019-04-13-measles-charts.md) of this post for details on how these charts were embedded.
-- See the [lecture 13A slides](https://github.com/MUSA-550-Fall-2020/week-13/blob/master/lecture-13A.ipynb) for the code that produced these plots.
-
-**Important: When embedding charts, you will likely need to adjust the width/height of the charts before embedding them in the page so they fit nicely when embedded.**
-
-Enter text in [Markdown](http://daringfireball.net/projects/markdown/). Use the toolbar above, or click the **?** button for formatting help.
-
-
-
-## A New Post
-
-This post will show examples of embedding interactive charts produced using [Altair](https://altair-viz.github.io) and [Hvplot](https://hvplot.pyviz.org/).
-
-## Altair Example
-
-Below is a chart of the incidence of measles since 1928 for the 50 US states.
-
-<div id="altair-chart-1"></div>
-
-This was produced using Altair and embedded in this static web page. Note that you can also display Python code on this page:
-
-```python
-import altair as alt
-alt.renderers.enable('notebook')
-```
